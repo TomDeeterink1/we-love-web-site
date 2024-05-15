@@ -1,23 +1,56 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History</title>
     <!-- Link to your external style guide(s) -->
     <link rel="stylesheet" href="assets/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Link to your external script(s) -->
-    <link rel="script" href="assets/scripts/mainscript.js">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script defer type="module" src="script.js" ></script>
+    
 </head>
 <body>
     <main>
+        <button class="go-up">
+            <i class='bx bxs-chevron-up bx-sm'></i>
+        </button>
         <section class="section-1--home">
-            <h1>Welcome to we love web</h1>
-            <h3> See and discover what the web has to offer</h3>
-            <div class="home--content">
-                <a class="link" href="./we-love-web-1.html"> We love web 1 Digital gardening</a>
-                <a class="link" href="./we-love-web-2.html"> We love web 2 NOKO</a>
-            </div>
+         
+          <h1 class="intro-text">
+            <span>Welcome to  <span id="color-1">we love web,</span> Explore what the web has to offer</span>
+          </h1>
+          <button class="intro-button">
+            <i class='bx bxs-chevron-down bx-sm'></i>
+          </button>
         </section>
+        <section id="s2home" class="section-2--home">
+         
+            <h1 class="intro-text-2">
+              Read all of my followed seminars, or take a look at what i have found for my-self
+            </h1>
+
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+          </section>
     </main>
 </body>
+<footer>
+    
+</footer>
 </html>

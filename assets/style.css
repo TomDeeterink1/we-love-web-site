@@ -179,6 +179,124 @@
     }
   }
 
-  body{
+
+  main{
+    background-color: #000;
     
+  }
+  .go-up{
+    position: fixed;
+    right: 64px;
+    bottom: 64px;
+    border-radius: 100%;
+    border: 5px solid var(--secondary);
+    outline: 5px solid var(--accent);
+    padding: 12px 12px ;
+    transition: ease-out 0.2s;
+    &:hover{
+      transition: ease-in 0.4s;
+      transform: scale(1.1) rotate(-20deg);
+
+      cursor: pointer;
+      border: 5px solid var(--accent);
+      outline: 5px solid var(--secondary);
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  .section-1--home{
+    
+    padding: 228px 0px 16px;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+
+      & h1{
+        font-weight: 400;
+        padding-top: 200px;
+        position: relative;
+        color: var(--main);
+        z-index: 2;
+
+        display: flex;
+        flex-direction: column;
+        line-height: 1.3em;
+        & span{
+          font-weight: 400;
+          position: relative;
+          & #color-1{
+            font-weight: 800;
+            color: var(--secondary);
+            padding: 8px 20px;
+            transition: ease-out 0.3s;
+
+            &:hover{ 
+              color: var(--alternative) ;
+              transition: ease-in 0.2s;
+              cursor: pointer; 
+
+            }
+           }
+        }
+
+      }
+
+      & button{
+        transition: ease-out 0.3s;
+        position: relative;
+        padding: 20px 20px ;
+        border-radius: 100%;
+        border: 5px solid var(--secondary);
+        outline: 5px solid var(--accent);
+        margin-top: 50px;
+
+        &:hover{
+          margin-top: 200px;
+          transition: ease-in 0.4s;
+          transform: scale(12) rotate(-20deg);
+
+          cursor: pointer;
+          border: 5px solid var(--accent);
+          outline: 5px solid var(--secondary);
+          background-color: #000;
+          color: #fff;
+        }
+        &:focus{
+          margin-top: 200px;
+          transition: ease-in 0.4s;
+          transform: scale(12) rotate(0deg);
+          cursor: pointer;
+          border: 5px solid var(--accent);
+          outline: 5px solid var(--secondary);
+          background-color: #000;
+          color: #fff;
+
+        }
+      }
+  }
+  .section-2--home{
+    padding: 100px 0px 16px;
+    width: 1280px;
+    height: 80vh;
+    margin: 0 auto;
+    color: white;
+    overflow-x: scroll;
+
+    & div{
+      width: 2000px;
+      overflow: ;
+      & ul{
+        padding-top: 64px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        overflow-x: scroll;
+        & li{
+          height: 300px;
+          width: 400px;
+          background-color: white;
+        }
+      }
+    }
   }
