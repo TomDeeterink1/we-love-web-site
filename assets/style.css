@@ -746,3 +746,34 @@
     margin: 0 auto;
   }
 }
+
+/* spotify detail */
+
+.spotify{
+  background-color: #121212;
+  & .link{
+    border-radius: 25px;
+    
+    padding: 10px 120px;
+    border: none;
+    outline: none;
+    background-color: #1ed760;
+  
+    &:hover{
+      transition: ease-in 0.3s;
+      transform: scale(102%) ;
+      border: none;
+    outline: none;
+    background-color: var(--main);
+    color: #000;
+    }
+  }
+  & h1{
+    font-size: 2em;
+  }
+
+  &  h3{
+    font-size: 1.2em;
+    color: #1ed760;
+  }
+}
