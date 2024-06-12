@@ -776,4 +776,9 @@
     font-size: 1.2em;
     color: #1ed760;
   }
+
+  & ul{
+    list-style-type: disc;
+    padding-inline-start: 1em;
+  }
 }
